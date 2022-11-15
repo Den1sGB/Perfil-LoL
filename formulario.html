@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<head>
+    <meta charset="UTF-8"> 
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon"  href = "icon/favicon1.png">
+    <title>Formulário | Contrato</title>
+</head>
+<body bgcolor=#1f1e1b align="center" text="#fffff">
+  <h1>Formulário Contratação</h1>
+    <!--criação do formulario-->
+    <form id="form" action="." method="post" enctype="multipart/form-data">
+        <h3>
+        <!--nome e e-mail-->
+        <label for="nome"> Nome da sua Organização</label><br><br>
+        <input type="text" nome="mome" id="nome" size="63"maxlength="63" required/>
+        <br><br>
+        <label for="e-mail"> E-mail </label><br><br>
+        <input type="text" nome="e-mail" id="e-mail"size="62" maxlength="62" required/>
+        <br><br>
+        
+        <!--select com estados em ordem alfabética-->
+        <label for ="estado"> Estado da Organização:</label><br><br>
+        <select id="estado" name="estado" required  >
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+        </select>
+        <br><br>
+        <label for="texto">Por que me quer no seu time?</label>
+        <br><br>
+        <textarea id="texto" name="texto"rows="10" cols="50" required></textarea>
+        <br><br>
+        <input type="submit"name="enviar" id="enviar" value="Enviar"/>
+        <input type="reset" name="limpar" id="limpar" value="Limpar"/>
+    </form>
+    <br><br><br><br><br>
+    <li><a href="index.html" style="color: #d41212">Voltar ao Site Principal</a></li>
+</body>
+</html>
