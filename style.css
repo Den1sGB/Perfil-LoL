@@ -495,3 +495,29 @@ p{
     }
 }
 
+
+/**formulario*/
+
+.fundoform{
+    background:url(./imagens/fundoform.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    font-family: "Fremont";
+    color: #fff06b;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 50px;
+    
+}
+
+.botaoform {
+    padding: 0px 130px;
+}
+
+.voltarprincipal{
+    margin: -40px;
+}
